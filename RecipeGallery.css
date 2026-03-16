@@ -1,12 +1,13 @@
 .gallery-container {
-  padding: 20px;
+  padding: 30px;
+  text-align: center;
   font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
+  background-color: #f8f9fa;
   min-height: 100vh;
 }
 
 .gallery-title {
-  text-align: center;
+  font-size: 36px;
   margin-bottom: 30px;
   color: #333;
 }
@@ -20,19 +21,20 @@
 .recipe-card {
   background: white;
   border-radius: 12px;
-  padding: 15px;
+  padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .recipe-image {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
+  margin-bottom: 15px;
 }
 
 .recipe-card h2 {
-  margin-top: 15px;
   margin-bottom: 10px;
   color: #222;
 }
@@ -44,5 +46,9 @@
 
 .recipe-card ul {
   padding-left: 20px;
+}
+
+.recipe-card li {
+  margin-bottom: 5px;
   color: #444;
 }
