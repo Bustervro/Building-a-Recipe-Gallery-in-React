@@ -36,7 +36,6 @@ function RecipeGallery() {
   return (
     <div className="gallery-container">
       <h1 className="gallery-title">Recipe Gallery</h1>
-
       <div className="recipe-grid">
         {recipes.map((recipe) => (
           <div className="recipe-card" key={recipe.id}>
